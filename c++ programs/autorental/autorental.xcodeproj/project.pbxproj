@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9380477819E45628005CFDC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9380477719E45628005CFDC1 /* main.cpp */; };
+		9380477A19E45629005CFDC1 /* autorental.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9380477919E45629005CFDC1 /* autorental.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9380477219E45627005CFDC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9380477A19E45629005CFDC1 /* autorental.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9380477419E45628005CFDC1 /* autorental */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autorental; sourceTree = BUILT_PRODUCTS_DIR; };
+		9380477719E45628005CFDC1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9380477919E45629005CFDC1 /* autorental.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = autorental.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9380477119E45627005CFDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9380476B19E45627005CFDC1 = {
+			isa = PBXGroup;
+			children = (
+				9380477619E45628005CFDC1 /* autorental */,
+				9380477519E45628005CFDC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9380477519E45628005CFDC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9380477419E45628005CFDC1 /* autorental */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9380477619E45628005CFDC1 /* autorental */ = {
+			isa = PBXGroup;
+			children = (
+				9380477719E45628005CFDC1 /* main.cpp */,
+				9380477919E45629005CFDC1 /* autorental.1 */,
+			);
+			path = autorental;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9380477319E45627005CFDC1 /* autorental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9380477D19E45629005CFDC1 /* Build configuration list for PBXNativeTarget "autorental" */;
+			buildPhases = (
+				9380477019E45627005CFDC1 /* Sources */,
+				9380477119E45627005CFDC1 /* Frameworks */,
+				9380477219E45627005CFDC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autorental;
+			productName = autorental;
+			productReference = 9380477419E45628005CFDC1 /* autorental */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9380476C19E45627005CFDC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = victordang;
+			};
+			buildConfigurationList = 9380476F19E45627005CFDC1 /* Build configuration list for PBXProject "autorental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9380476B19E45627005CFDC1;
+			productRefGroup = 9380477519E45628005CFDC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9380477319E45627005CFDC1 /* autorental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9380477019E45627005CFDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9380477819E45628005CFDC1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9380477B19E45629005CFDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9380477C19E45629005CFDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9380477E19E45629005CFDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9380477F19E45629005CFDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9380476F19E45627005CFDC1 /* Build configuration list for PBXProject "autorental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9380477B19E45629005CFDC1 /* Debug */,
+				9380477C19E45629005CFDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9380477D19E45629005CFDC1 /* Build configuration list for PBXNativeTarget "autorental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9380477E19E45629005CFDC1 /* Debug */,
+				9380477F19E45629005CFDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9380476C19E45627005CFDC1 /* Project object */;
+}
